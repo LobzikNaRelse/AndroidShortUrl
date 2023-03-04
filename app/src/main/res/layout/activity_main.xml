@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/small_art"
+        android:layout_width="347dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="194dp"
+        android:ems="10"
+        android:hint="@string/small_art"
+        android:inputType="textPostalAddress"
+        android:shadowColor="#00FDFDFD"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/hint_edit"
+        android:textColorHint="@color/hint_edit"
+        android:textColorLink="@color/hint_edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/app_f1"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/app_f2"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/full_art"
+        android:layout_width="347dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="130dp"
+        android:ems="10"
+        android:hint="@string/full_art"
+        android:inputType="textPostalAddress"
+        android:shadowColor="#00FDFDFD"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/hint_edit"
+        android:textColorHint="@color/hint_edit"
+        android:textColorLink="@color/hint_edit" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="269dp"
+        android:backgroundTint="@color/btn_add"
+        android:text="@string/btn_add" />
+
+    <ListView
+        android:id="@+id/ListArt"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/btn_add"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="310dp"
+        android:dividerHeight="2dp" />
+
+
+</RelativeLayout>

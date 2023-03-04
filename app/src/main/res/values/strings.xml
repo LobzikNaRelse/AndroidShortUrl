@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KursDiplomAndroid</string>
+    <string name="app_f1">Сокращение</string>
+    <string name="app_f2">ссылок</string>
+    <string name="full_art">Введите полную ссылку</string>
+    <string name="small_art">Введите короткую ссылку</string>
+    <string name="btn_add">Добавить</string>
+    <string name="row_const">Сокращение: </string>
+    <string name="row_art">Короткая ссылка</string>
+
+</resources>
